@@ -32,4 +32,5 @@ jobs:
         with:
           name: BroadRUBilling-docc
           path: .build/BroadRUBilling*.doccarchive.zip
+          include-hidden-files: true
           if-no-files-found: error
