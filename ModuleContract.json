@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "module": "BroadRUBilling",
+  "product": "BroadRUBilling",
+  "sandbox": "BroadRUBillingGallery",
+  "minimumIOS": "17.0",
+  "swiftTools": "6.0",
+  "allowedBroadImports": [
+    "BroadCore",
+    "BroadMonetization",
+    "BroadUIFlows",
+    "BroadRUBilling"
+  ],
+  "requiresPrivacyManifest": false,
+  "realPaymentsExecuted": false
+}
