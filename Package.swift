@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/BroadApps-official/broad-core-ios.git", from: "3.0.0"),
         .package(url: "https://github.com/BroadApps-official/broad-monetization-ios.git", from: "5.0.0"),
-        .package(url: "https://github.com/BroadApps-official/broad-ui-flows-ios.git", from: "5.0.0"),
+        .package(url: "https://github.com/BroadApps-official/broad-ui-flows-ios.git", "5.0.0"..<"7.0.0"),
         .package(url: "https://github.com/Swinject/Swinject.git", exact: "2.10.0")
     ],
     targets: [

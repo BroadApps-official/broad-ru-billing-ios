@@ -1,6 +1,6 @@
 # BroadRUBilling
 
-![Release 1.0.0](https://img.shields.io/badge/release-1.0.0-10B981)
+![Release 1.0.1](https://img.shields.io/badge/release-1.0.1-10B981)
 
 Optional Russian billing for BroadApps iPhone applications. Host app подключает этот repository только по надобности.
 
@@ -14,7 +14,7 @@ Base packages do not depend on this repository. Apps without RU payments omit th
 package entirely: no runtime flag, disabled adapter, callback registration or RU resources are needed.
 
 ```swift
-.package(url: "https://github.com/BroadApps-official/broad-ru-billing-ios.git", from: "1.0.0")
+.package(url: "https://github.com/BroadApps-official/broad-ru-billing-ios.git", from: "1.0.1")
 ```
 
 Add only the products used by the target. `BroadRUBilling` does not depend on the
