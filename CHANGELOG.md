@@ -1,7 +1,14 @@
 # Changelog
 
-## Unreleased
+## 1.0.2
 
+### Changed — что изменилось и почему
+
+- `BroadRUBillingUI` принимает BroadUIFlows 5.x, 6.x и 7.x (`5.0.0..<8.0.0`).
+  UIFlows 7.0.0 меняет только `BroadSettingsHost` (обязательный `showPaywall`), а
+  используемые здесь тема, кнопки, тексты, форматирование цены и paywall не
+  изменились. Без этого набор с UIFlows 7.0.0 не собирался вместе с RU Billing. Код
+  модуля не менялся.
 - Gate exports a UTF-8 locale before invoking Ruby so checks work in checkout
   paths containing Cyrillic characters, even when the caller uses the C locale.
 
